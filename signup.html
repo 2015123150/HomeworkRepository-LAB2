@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> 2015213150 김민재 2차과제</title>
+        <link rel = “stylesheet” type = “text/css” href = "main.css">
+    </head>
+
+    <body>
+        <h1> Welcome to internet programming shop</h1>
+        <p class ="stress"> 
+             회원가입
+        </p>
+        <form method ="post">
+            <p class ="stress"> 개인정보 (필수)</p>
+            <P><label> 이름:
+                <input name = "이름", type = "text" , size = "25" maxlength = "30" required>
+            </label></P>
+            <p><label> 생일:
+                <input name = "생일" , type = "date"  required  > (yyyy-mm-dd)
+            </label></p>
+            <p><label>학년:
+                <input name = "학년" , type = "number" min = "0" max ="4" step="1" value ="2" required >      
+            </label></p>
+            <p><label>전화번호:
+                <input name = "전화번호" , type ="tel" placeholder = "(###)###-####" pattern = "\{(\d{3}\) \d{3}-\d{4}" required>
+            </label> </p>
+            <p><label>이메일:
+                <input name = "이메일" , type ="email" placeholder ="name@domain.com" required> 
+            </label></p>
+            <p><label>유저 아이디:
+                <input name = "유저아이디" , type="text", size = "25" maxlength = "30" required>
+            </label></p>
+            <p><label>비밀번호
+                <input name = "비밀번호" , type = "password",size = "25" maxlength = "30" required>
+            </label></p>
+            <p><label>비밀번호확인
+                <input name = "비밀번호확인" , type = "password",size = "25" maxlength = "30" required>
+            </label></p>
+            <p class = "click">
+                <input type = "Submit" value = "Signup">
+                <input type = "reset" value = "Cancel">
+            </p>
+            <P>
+                <a href = "login.html"> 로그인 화면으로 </a>
+            </P>
+        </form>
+    </body>
+</html>

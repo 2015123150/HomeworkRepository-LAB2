@@ -1,0 +1,43 @@
+h1 {
+    color : blue;
+    background-color : yellow;
+    text-align : center;
+    font-size : 30pt;
+    font-family : sans-serif;
+}
+
+p a {
+     color : black;
+     text-align : center;
+     margin-bottom : 1em;
+     padding : .5em;
+     border-style : double;
+     text-decoration : none;
+    
+}
+
+p a:hover {
+    background-color : aqua;
+}
+
+.stress {
+    font-size : 20pt;
+    font-weight : bold;
+}
+
+p input {
+   width : 30%;
+   height : 3%;
+   border-style : dotted;
+}
+
+.click {
+    width : 10%;
+    height : 5%;
+    background-color : yellow;
+    border-style : solid;
+}
+
+.click:hover {
+   background-color : blue
+}
